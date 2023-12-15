@@ -1,0 +1,29 @@
+
+
+#contact{
+    background-color: $pink;
+    margin-top: 1rem;
+    padding: 0.5rem;
+    div{
+        background-color: $red;
+        border-radius: 2rem;
+        padding: 2rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
+        display: inline-block;
+        max-width: 100%;
+        p{
+            color: white;
+            font-size: 0.8rem !important;
+        }
+    }
+}
+
+@media(min-width:768px){
+    #contact{
+        div{
+            padding-left: 12rem;
+            padding-right: 12rem;
+        }
+    }
+}

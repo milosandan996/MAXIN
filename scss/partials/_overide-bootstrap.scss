@@ -1,0 +1,49 @@
+
+//colors
+
+$pink: #ffe6e6;
+$blue: #b3ecff;
+$yellow: #ffff66;
+$red: #ff0035;
+
+p{
+    font-size: 0.9rem !important;
+}
+
+img{
+    max-width: 100% !important;
+}
+
+.main-title{
+    padding-top: 2rem !important;
+    padding-bottom: 3rem !important;
+
+}
+
+i.fa-regular{
+    font-size: 1.2rem !important;
+}
+
+i.fa-solid{
+    font-size: 1.2rem !important;
+}
+
+
+body{
+    background-color: $pink !important;
+}
+
+main{
+    img{
+        border-style: double;
+    }
+}
+
+.container{
+    background-color: white !important;
+    box-shadow: 20px black;
+    border-radius: 2rem;
+    -webkit-box-shadow: 0px 0px 13px 0px rgba(255,0,53,0.7);
+    -moz-box-shadow: 0px 0px 13px 0px rgba(255,0,53,0.7);
+    box-shadow: 0px 0px 13px 0px rgba(255,0,53,0.7);
+}

@@ -1,0 +1,28 @@
+
+
+footer{
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    div.container{
+        padding: 1rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        div{
+            p{
+                font-size: 0.8rem !important;
+            }
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    footer{
+        div.container{
+            div{
+                p{
+                    font-size: 1.1rem !important;
+                }
+            }
+        }
+    }
+}

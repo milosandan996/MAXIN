@@ -1,0 +1,22 @@
+
+
+
+header{
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.nav-item{
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 0 25px;
+    &:hover{
+        background-color: $red;
+        box-shadow: 0px 0px 10px 0px rgba(255,0,53,0.7);
+    }
+}
+
+.active{
+    background-color: $red;
+}
+
